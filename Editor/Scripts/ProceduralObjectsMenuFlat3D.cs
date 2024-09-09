@@ -6,11 +6,11 @@ using UnityEngine;
 
 namespace WRA.Procedural.Arrow.Editor
 {
-    public static class ProceduralObjectsMenu
+    public static class ProceduralObjectsMenuFlat3D
     {
         private const string FLAT_3D_PATH = "GameObject/Procedural/Flat 3D";
-        private const string FLAT_2D_PATH = "GameObject/Procedural/Flat 2D";
-        private const string MESH_3D_PATH = "GameObject/Procedural/Mesh 3D";
+        // private const string FLAT_2D_PATH = "GameObject/Procedural/Sprites 2D";
+        // private const string MESH_3D_PATH = "GameObject/Procedural/Mesh 3D";
 
         #region FLAT_3D
         

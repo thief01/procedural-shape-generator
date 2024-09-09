@@ -6,7 +6,7 @@ using UnityEngine;
 namespace WRA.Utility
 {
     [BurstCompile(CompileSynchronously = true)]
-    public class MeshCombine
+    public class MeshUtility
     {
         public static Mesh Combine(params Mesh[] meshes)
         {

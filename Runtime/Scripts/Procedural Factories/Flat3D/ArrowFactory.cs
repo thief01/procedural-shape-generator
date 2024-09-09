@@ -55,7 +55,7 @@ namespace procedural_shape_generator.Runtime.Scripts.Procedural_Factories.Flat3D
             var triangle = SimpleFactory.CreateTriangle(triangleVerticies);
             
             var mesh = new Mesh();
-            mesh = MeshCombine.Combine(line, triangle);
+            mesh = MeshUtility.Combine(line, triangle);
             mesh.name = "ProceduralArrow";
             return mesh;
         }

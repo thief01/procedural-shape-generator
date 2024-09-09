@@ -80,10 +80,7 @@ namespace procedural_shape_generator.Runtime.Scripts.Procedural_Factories.Flat3D
         
             Vector2[] uv = new Vector2[3];
             int[] triangles = new int[3];
-        
-            uv[0] = new Vector2(0, 0);
-            uv[1] = new Vector2(1, 0);
-            uv[2] = new Vector2(0, 1);
+            
         
             triangles[0] = 0;
             triangles[1] = 2;
