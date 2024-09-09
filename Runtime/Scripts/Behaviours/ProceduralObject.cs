@@ -3,6 +3,7 @@ using UnityEngine;
 namespace WRA.Procedural.Arrow
 {
     [RequireComponent(typeof(MeshFilter) , typeof(MeshRenderer))]
+    [ExecuteInEditMode]
     public abstract class ProceduralObject : MonoBehaviour
     {
         protected MeshFilter meshFilter;
